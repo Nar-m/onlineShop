@@ -1,0 +1,60 @@
+.title {
+    font-family: "Bodoni Moda", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.filter {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.filter span:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    width: 380px;
+    background-color: #f0e3e2;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper>div {
+    margin: 8px 0;
+}
+
+.wrapper img {
+    height: 220px;
+}
+
+.wrapper .product-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: -100%;
+    padding: 8px;
+    transition: 0.3s all;
+
+}
+
+.wrapper .product-navigation i {
+    margin: 8px 0;
+}
+
+.wrapper .product-navigation i {
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    color: red;
+}
+
+.wrapper:hover .product-navigation {
+    right: 0;
+}

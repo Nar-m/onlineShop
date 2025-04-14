@@ -1,0 +1,37 @@
+header {
+    color: #bb5644;
+    transition: 0.3s all;
+    transform: translateY(-50px);
+    padding: 50px;
+}
+
+header.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 77;
+    background-color: #f0e3e2;
+    transform: translateY(0);
+}
+
+header nav ul li {
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+header nav ul li::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    transition: 0.3s all;
+    height: 3px;
+    background-color: #bb5644;
+}
+
+header nav ul li:hover::before {
+    width: 80%;
+}

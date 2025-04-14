@@ -1,0 +1,41 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    z-index: 100;
+    background-color: white;
+    transition: 0.5s all;
+    padding: 20px;
+    overflow-y: scroll;
+    display: flex;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 16px;
+}
+
+.sidebar.show {
+    left: 0;
+}
+
+.sidebar ul li {
+    padding: 8px;
+    font-size: 18px;
+    color: inherit;
+    margin: 15px 0;
+    border-radius: 8px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.sidebar ul li:hover {
+    background-color: #cb11ab;
+}

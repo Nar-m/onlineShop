@@ -1,0 +1,16 @@
+.cartside {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 35vw;
+    z-index: 100000;
+    background-color: #fff;
+    transition: 0.3s all;
+    height: 100%;
+    box-shadow: 0 0 10px 1px  gray;
+    overflow: scroll;
+}
+
+.cartside.open {
+    right: 0;
+}

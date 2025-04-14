@@ -1,0 +1,37 @@
+.arrow img:hover{
+    transform: scale(1.2);
+}
+.arrow{
+    display: flex;
+}
+.product{
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s all;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.bonus{
+    animation: opacity 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite ;
+}
+
+@keyframes opacity{
+    0%{
+        opacity: 0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.shop{
+    background-color: #bb5644;
+    color: white;
+    padding: 15px;
+    transition: 0.3s all;
+    border: 1px solid #bb5644;
+}
+.shop:hover{
+    background: transparent;
+    border: 1px solid #bb5644;
+    color: #bb5644;
+}
