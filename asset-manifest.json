@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/onlineShop/static/css/main.dfd19430.css",
+    "main.js": "/onlineShop/static/js/main.5d04ee24.js",
+    "static/js/787.ea1d81b8.chunk.js": "/onlineShop/static/js/787.ea1d81b8.chunk.js",
+    "static/media/images.webp": "/onlineShop/static/media/images.7921627ceaa7dd191429.webp",
+    "static/media/jeweler2.svg": "/onlineShop/static/media/jeweler2.87c4557512d3f62ad96e2962b602ee5a.svg",
+    "index.html": "/onlineShop/index.html",
+    "static/media/arrow2.svg": "/onlineShop/static/media/arrow2.3f6bbe04ef224a3c97d8db64b205a238.svg",
+    "static/media/arrow1.svg": "/onlineShop/static/media/arrow1.fdc48e2f4b33ba85400319cd0cb9811f.svg",
+    "main.dfd19430.css.map": "/onlineShop/static/css/main.dfd19430.css.map",
+    "main.5d04ee24.js.map": "/onlineShop/static/js/main.5d04ee24.js.map",
+    "787.ea1d81b8.chunk.js.map": "/onlineShop/static/js/787.ea1d81b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfd19430.css",
+    "static/js/main.5d04ee24.js"
+  ]
+}
